@@ -1,1 +1,1 @@
-# Facebook
+# Resonsive simulation for Facebook where user can sign up and sends his data to the local storage acting as databasa and login with his data he registred and then go to home page on facebook where we are veiwing some posts coming from an array of objects in javascript using html, css, bootstrap and javascript

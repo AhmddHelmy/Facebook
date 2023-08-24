@@ -1,0 +1,86 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="imgs/facebook-logo-2019.ico">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css" integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- main style -->
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Facebook</title>
+</head>
+
+<body class="bg-gray">
+  <!-- Login -->
+  <div class="container mt-5 pt-5 d-flex flex-column flex-lg-row justify-content-evenly">
+    <!-- heading -->
+    <div class="text-center text-lg-start mt-0 pt-0 mt-lg-5 pt-lg-5">
+      <h1 class="text-primary fw-bold fs-0">facebook</h1>
+      <p class="w-75 mx-auto fs-4 mx-lg-0">facebook helps you connect and share with the people in your life.</p>
+    </div>
+    <!-- form card -->
+    <div style="max-width: 28rem; width: 100%">
+      <!-- login form -->
+      <!-- first was form tag -->
+      <div class="bg-white shadow rounded p-3 input-group-lg">
+        <form id="main-form">
+          <input id="main-email" type="email" class="form-control my-3" placeholder="Email address" />
+          <span id="main-email-error" class="error"></span>
+          <input id="main-password" type="password" class="form-control my-3" placeholder="Password" />
+          <span id="main-password-error" class="error"></span>
+          <a href="./feed.html"><button class="btn btn-primary w-100 my-3" type="submit">Log In</button></a>
+          <a href="#" class="text-decoration-none text-center">
+            <p>Forgotten password?</p>
+          </a>
+        </form>
+        <!-- create form -->
+        <hr />
+        <div class="text-center my-4">
+          <a href="signup.html"><button class="btn btn-success btn-lg" type="button" data-bs-toggle="modal"
+              data-bs-target="#createModal">Create New Account</button></a>
+        </div>
+      </div>
+      <!-- tag -->
+      <div class="my-5 pb-5 text-center">
+        <p class="fw-bold"><a href="#" class="text-decoration-none text-dark">Createa a Page</a> <span
+            class="fw-normal">For a celebrity, band or business.</span></p>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-white p-4 text-muted">
+    <div class="container">
+      <!-- language -->
+      <div class="d-flex flex-wrap">
+        <p class="mx-2 fs-7 mb-0">English (US)</p>
+        <p class="mx-2 fs-7 mb-0">Tiếng Việt</p>
+        <p class="mx-2 fs-7 mb-0">中文(台灣)</p>
+        <p class="mx-2 fs-7 mb-0">한국어</p>
+        <p class="mx-2 fs-7 mb-0">日本語</p>
+      </div>
+      <hr />
+      <!-- actions -->
+      <div class="d-flex flex-wrap">
+        <p class="mx-2 fs-7 mb-0">Sign Up</p>
+        <p class="mx-2 fs-7 mb-0">Login</p>
+        <p class="mx-2 fs-7 mb-0">Messenger</p>
+        <p class="mx-2 fs-7 mb-0">Facebook Lite</p>
+        <p class="mx-2 fs-7 mb-0">Watch</p>
+      </div>
+      <!-- copy -->
+      <div class="mt-4 mx-2">
+        <p class="fs-7">facebook &copy; 2021</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js" integrity="sha512-ToL6UYWePxjhDQKNioSi4AyJ5KkRxY+F1+Fi7Jgh0Hp5Kk2/s8FD7zusJDdonfe5B00Qw+B8taXxF6CFLnqNCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
